@@ -1,0 +1,10 @@
+C:\Documents and Settings\USER\Рабочий стол\Павлович\Laba_5\Laba_5\bin\Debug\Laba_5.exe
+C:\Documents and Settings\USER\Рабочий стол\Павлович\Laba_5\Laba_5\bin\Debug\Laba_5.pdb
+C:\Documents and Settings\USER\Рабочий стол\Павлович\Laba_5\Laba_5\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\USER\Рабочий стол\Павлович\Laba_5\Laba_5\obj\x86\Debug\Laba_5.exe
+C:\Documents and Settings\USER\Рабочий стол\Павлович\Laba_5\Laba_5\obj\x86\Debug\Laba_5.pdb
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Case\Laba_5\obj\x86\Debug\Laba_5.exe
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Case\Laba_5\obj\x86\Debug\Laba_5.pdb
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Case\Laba_5\bin\Debug\Laba_5.exe
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Case\Laba_5\bin\Debug\Laba_5.pdb
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Case\Laba_5\obj\x86\Debug\Laba_5.csprojResolveAssemblyReference.cache

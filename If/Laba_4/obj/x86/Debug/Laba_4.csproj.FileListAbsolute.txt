@@ -1,0 +1,5 @@
+C:\Documents and Settings\USER\Рабочий стол\Павлович\Laba_4\Laba_4\bin\Debug\Laba_4.exe
+C:\Documents and Settings\USER\Рабочий стол\Павлович\Laba_4\Laba_4\bin\Debug\Laba_4.pdb
+C:\Documents and Settings\USER\Рабочий стол\Павлович\Laba_4\Laba_4\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\USER\Рабочий стол\Павлович\Laba_4\Laba_4\obj\x86\Debug\Laba_4.exe
+C:\Documents and Settings\USER\Рабочий стол\Павлович\Laba_4\Laba_4\obj\x86\Debug\Laba_4.pdb
