@@ -1,7 +1,0 @@
-C:\Documents and Settings\USER\Рабочий стол\Павлович\Laba_1\Laba_1\bin\Debug\Laba_1.exe
-C:\Documents and Settings\USER\Рабочий стол\Павлович\Laba_1\Laba_1\bin\Debug\Laba_1.pdb
-C:\Documents and Settings\USER\Рабочий стол\Павлович\Laba_1\Laba_1\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\USER\Рабочий стол\Павлович\Laba_1\Laba_1\obj\x86\Debug\Laba_1.exe
-C:\Documents and Settings\USER\Рабочий стол\Павлович\Laba_1\Laba_1\obj\x86\Debug\Laba_1.pdb
-C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Begin\Laba_1\obj\x86\Debug\Laba_1.exe
-C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Begin\Laba_1\obj\x86\Debug\Laba_1.pdb
