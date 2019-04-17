@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Zadacha_2A\Zadacha_2A\bin\Debug\Zadacha_2A.exe.config
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Zadacha_2A\Zadacha_2A\bin\Debug\Zadacha_2A.exe
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Zadacha_2A\Zadacha_2A\bin\Debug\Zadacha_2A.pdb
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Zadacha_2A\Zadacha_2A\obj\Debug\Zadacha_2A.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Zadacha_2A\Zadacha_2A\obj\Debug\Zadacha_2A.exe
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Zadacha_2A\Zadacha_2A\obj\Debug\Zadacha_2A.pdb
