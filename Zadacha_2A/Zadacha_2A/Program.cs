@@ -21,17 +21,17 @@ namespace Zadacha_2A
             if (M >= 2 && N <= 1000000)
             {
                 // Создание массива логических выражений
-                bool[] composites = new bool[N + 1];
+                bool[] massive_istini = new bool[N + 1];
 
                 /* Цикл, меняющий в массиве значения false на true, если их индексы не являются простыми числами
                  * Проще говоря, false - простое число, а true - непростое число*/
-                for (int i = 2; i <= composites.Length / 2; ++i)
+                for (int i = 2; i <= massive_istini.Length / 2; ++i)
                 {
-                    if (!composites[i])
+                    if (!massive_istini[i])
                     {
-                        for (int j = i * 2; j < composites.Length; j += i)
+                        for (int j = i * 2; j < massive_istini.Length; j += i)
                         {
-                            composites[j] = true;
+                            massive_istini[j] = true;
                         }
                     }
                 }
@@ -49,7 +49,7 @@ namespace Zadacha_2A
                  * построчно в файл "primes2.out"*/
                 for (int i = M; i <= N; ++i)
                 {
-                    if (!composites[i])
+                    if (!massive_istini[i])
                     {
                         File.AppendAllText("primes2.out", i.ToString() + "\n");
                     }
