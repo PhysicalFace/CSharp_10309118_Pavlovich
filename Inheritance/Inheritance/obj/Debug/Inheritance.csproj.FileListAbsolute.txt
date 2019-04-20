@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Inheritance\Inheritance\bin\Debug\Inheritance.exe.config
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Inheritance\Inheritance\bin\Debug\Inheritance.exe
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Inheritance\Inheritance\bin\Debug\Inheritance.pdb
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Inheritance\Inheritance\obj\Debug\Inheritance.exe
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Inheritance\Inheritance\obj\Debug\Inheritance.pdb
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Inheritance\Inheritance\obj\Debug\Inheritance.csprojResolveAssemblyReference.cache

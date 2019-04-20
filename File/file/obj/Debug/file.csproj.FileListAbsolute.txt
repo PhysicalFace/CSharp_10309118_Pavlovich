@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\file\file\bin\Debug\file.exe.config
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\file\file\bin\Debug\file.exe
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\file\file\bin\Debug\file.pdb
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\file\file\obj\Debug\file.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\file\file\obj\Debug\file.exe
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\file\file\obj\Debug\file.pdb
