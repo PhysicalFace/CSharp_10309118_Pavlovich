@@ -36,23 +36,17 @@ namespace Zadacha_2A
                     }
                 }
 
-                // Если такой файл для вывода уже есть, удаляем его
-                if (File.Exists("primes2.out"))
-                {
-                    File.Delete("primes2.out");
-                }
-
-                // Создаём новый файл для вывода
-                File.Create("primes2.out").Close();
-
                 /* Выводим все индексы, которые являются простыми числами(т.е. если в этих индексах значение false),
                  * построчно в файл "primes2.out"*/
+                using(StreamWriter sw = new StreamWriter("primes2.out"))
+                {
                 for (int i = M; i <= N; ++i)
                 {
                     if (!massive_istini[i])
                     {
-                        File.AppendAllText("primes2.out", i.ToString() + "\n");
+                        sw.WriteLine(i);
                     }
+                }
                 }
 
                 // Если из диапазона вообще нету простых чисел, выдаёт "Absent"
