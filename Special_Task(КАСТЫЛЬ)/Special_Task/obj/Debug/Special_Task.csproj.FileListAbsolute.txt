@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Special_Task\Special_Task\bin\Debug\Special_Task.exe.config
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Special_Task\Special_Task\bin\Debug\Special_Task.exe
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Special_Task\Special_Task\bin\Debug\Special_Task.pdb
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Special_Task\Special_Task\obj\Debug\Special_Task.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Special_Task\Special_Task\obj\Debug\Special_Task.exe
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Special_Task\Special_Task\obj\Debug\Special_Task.pdb
