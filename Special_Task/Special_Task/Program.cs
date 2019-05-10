@@ -73,7 +73,7 @@ namespace Special_Task
                         BigInteger number = BigInteger.Parse(line);
 
                         // Проверка делимости числа на 396 без остатка
-                        if (number % 396 == 0)
+                        if (number % 396 == 0 && number != 0)
                         {
                             if (max < number)
                             {
