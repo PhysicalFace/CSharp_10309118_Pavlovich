@@ -1,87 +1,65 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
 using System.Threading.Tasks;
-using System.Numerics;
 
 namespace Special_Task
 {
     class Program
     {
-        /// Генератор числа элементов из цифр в последовательности для входного файла DIV396.IN.
-        /// Ф-ция для тех, кому лень придумывать свои значения.
-        /// Просто введите вначале исходного кода эту ф-цию и будет вам счастье.
-        static void ToGenerateDIV396()
-        {
-            Console.Write("Введите число элементов в последовательности: ");
-            int lines = Int32.Parse(Console.ReadLine());
-
-            using (StreamWriter sw = new StreamWriter("DIV396.IN"))
-            {
-                sw.WriteLine(lines);
-                Random rnd = new Random();
-
-                for (int i = 0; i < lines; i++)
-                {
-                    var chars = "0123456789";
-                    var stringChars = new char[rnd.Next(1, 30000) - 1];
-
-                    for (int j = 0; j < stringChars.Length; j++)
-                    {
-                        stringChars[j] = chars[rnd.Next(chars.Length)];
-                    }
-
-                    var finalString = new String(stringChars);
-                    sw.WriteLine(finalString);
-                }
-            }
-        }
-
-        /// Исходный код.
         static void Main(string[] args)
         {
-            int count = 0; // счётчик кол-ва max-ных значений
-            int count_max = 0; // номер строки max-ого значения
-            BigInteger max = 0; // эта переменная будет сравниваться со значениями каждой строки
+            int count = 0;
+            int count_max = 0;
+            string max = "";
 
             // Считываем данные из файла DIV396.IN построчно
             using (StreamReader sr = new StreamReader("DIV396.IN"))
             {
-                string line;
-                int i = 0; // счётчик строк в файле
+                String line;
+                int stroka = 0;
 
-                // Считываем информацию с файла построчно, пока строки этого файла не будут пустыми
+                // Считываем информацию с файла построчно, пока следующие строки файла не окажутся пустыми
                 while ((line = sr.ReadLine()) != null)
                 {
-                    i++;
+                    stroka++;
+                    string this_line = line;
 
-                    if (i == 1)
+                    if (stroka == 1)
                     {
                         // Проверяем на корректный диапазон
                         int limit = Int32.Parse(line);
                         if (limit < 1 || limit > 10000)
                         {
                             Console.WriteLine("Ошибка диапазона!");
-                            Console.ReadKey();
                             break;
                         }
                     }
                     else
                     {
-                        BigInteger number = BigInteger.Parse(line);
+                        // Пока длина строки больше 9 знаков, делим кусочно
+                        while (line.Length > 9)
+                        {
+                            var piece_of_number = (Int32.Parse(line.Substring(0, 9)) % 396);
+                            line = line.Remove(0, 9);
+                            line = line.Insert(0, piece_of_number.ToString());
+                        }
+
+                        
+                        int number = Int32.Parse(line);
 
                         // Проверка делимости числа на 396 без остатка
-                        if (number % 396 == 0 && number != 0)
+                        if (number % 396 == 0)
                         {
-                            if (max < number)
+                            if (max.Length < this_line.Length)
                             {
-                                max = number;
+                                max = this_line;
                                 count = 1;
-                                count_max = i;
+                                count_max = stroka;
                             }
-                            else if (max == number)
+                            else if (max.Length == this_line.Length)
                             {
                                 count++;
                             }
