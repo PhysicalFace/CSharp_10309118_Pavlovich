@@ -46,8 +46,7 @@ namespace Special_Task
                             line = line.Remove(0, 9);
                             line = line.Insert(0, piece_of_number.ToString());
                         }
-
-                        
+          
                         int number = Int32.Parse(line);
 
                         // Проверка делимости числа на 396 без остатка
