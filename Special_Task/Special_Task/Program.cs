@@ -31,7 +31,7 @@ namespace Special_Task
                     {
                         // Проверяем на корректный диапазон
                         int limit = Int32.Parse(line);
-                        if (limit < 1 || limit > 10000)
+                        if (limit < 1 || limit > 100000)
                         {
                             Console.WriteLine("Ошибка диапазона!");
                             break;
