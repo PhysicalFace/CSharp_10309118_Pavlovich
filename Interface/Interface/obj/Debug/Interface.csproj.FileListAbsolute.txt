@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Interface\Interface\bin\Debug\Interface.exe.config
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Interface\Interface\obj\Debug\Interface.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Interface\Interface\bin\Debug\Interface.exe
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Interface\Interface\bin\Debug\Interface.pdb
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Interface\Interface\obj\Debug\Interface.exe
+C:\Users\User\Desktop\Мои лабы\2 семестр\Информатика\Interface\Interface\obj\Debug\Interface.pdb
