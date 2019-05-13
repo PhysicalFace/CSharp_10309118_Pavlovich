@@ -40,13 +40,13 @@ namespace Zadacha_2A
                  * построчно в файл "primes2.out"*/
                 using(StreamWriter sw = new StreamWriter("primes2.out"))
                 {
-                for (int i = M; i <= N; ++i)
-                {
-                    if (!massive_istini[i])
+                    for (int i = M; i <= N; ++i)
                     {
-                        sw.WriteLine(i);
+                        if (!massive_istini[i])
+                        {
+                            sw.WriteLine(i);
+                        }
                     }
-                }
                 }
 
                 // Если из диапазона вообще нету простых чисел, выдаёт "Absent"
