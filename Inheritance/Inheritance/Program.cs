@@ -108,8 +108,8 @@ namespace Inheritance
         {
             List<Tovar> tovari = new List<Tovar>
             {
-                new Product("хлебушек вечности", 100, Convert.ToDateTime("02.12.2010"), 999999),
-                new Batch("жареные тараканы", 3, 444, Convert.ToDateTime("05.12.2010"), 60),
+                new Product("Вечный хлеб", 100, Convert.ToDateTime("02.12.2010"), 999999),
+                new Batch("Жареные тараканы", 3, 444, Convert.ToDateTime("05.12.2010"), 60),
                 new Set("Шпоры по Высшей Математике", 2, "цветные, белые, прозрачные")
             };
 
