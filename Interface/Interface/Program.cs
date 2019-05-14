@@ -19,7 +19,7 @@ namespace Interface
         static void Main(string[] args)
         {
             var f = true;
-            const int N = 3;
+            const int N = 10;
 
             WORKER[] worker = new WORKER[N];
 
