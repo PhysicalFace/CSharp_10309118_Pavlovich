@@ -1,0 +1,9 @@
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_4\bin\Debug\Laba_4.exe.config
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_4\bin\Debug\Laba_4.exe
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_4\bin\Debug\Laba_4.pdb
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_4\obj\Debug\Laba_4.csprojResolveAssemblyReference.cache
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_4\obj\Debug\Laba_4.Form1.resources
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_4\obj\Debug\Laba_4.Properties.Resources.resources
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_4\obj\Debug\Laba_4.csproj.GenerateResource.Cache
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_4\obj\Debug\Laba_4.exe
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_4\obj\Debug\Laba_4.pdb
