@@ -1,0 +1,13 @@
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_6\bin\Debug\Laba_6.exe.config
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_6\bin\Debug\Laba_6.exe
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_6\bin\Debug\Laba_6.pdb
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_6\obj\Debug\Laba_6.csprojResolveAssemblyReference.cache
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_6\obj\Debug\MainWindow.baml
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_6\obj\Debug\MainWindow.g.cs
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_6\obj\Debug\App.g.cs
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_6\obj\Debug\Laba_6_MarkupCompile.cache
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_6\obj\Debug\Laba_6.g.resources
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_6\obj\Debug\Laba_6.Properties.Resources.resources
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_6\obj\Debug\Laba_6.csproj.GenerateResource.Cache
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_6\obj\Debug\Laba_6.exe
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_6\obj\Debug\Laba_6.pdb
