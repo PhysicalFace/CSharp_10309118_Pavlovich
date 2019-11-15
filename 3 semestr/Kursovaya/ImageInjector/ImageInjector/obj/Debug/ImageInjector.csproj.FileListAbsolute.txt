@@ -21,3 +21,4 @@ C:\Users\Physics\Desktop\3 семестр\Курсачи\Информатика\
 C:\Users\Physics\Desktop\3 семестр\Курсачи\Информатика\ImageInjector\ImageInjector\bin\Debug\ImageInjector.pdb
 C:\Users\Physics\Desktop\3 семестр\Курсачи\Информатика\ImageInjector\ImageInjector\obj\Debug\ImageInjector.MainForm.resources
 C:\Users\Physics\Desktop\3 семестр\Курсачи\Информатика\ImageInjector\ImageInjector\obj\Debug\ImageInjector.csproj.GenerateResource.Cache
+C:\Users\Physics\Desktop\3 семестр\Курсачи\Информатика\ImageInjector\ImageInjector\obj\Debug\ImageInjector.csprojResolveAssemblyReference.cache

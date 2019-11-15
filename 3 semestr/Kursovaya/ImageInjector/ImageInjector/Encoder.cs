@@ -12,8 +12,8 @@ namespace ImageInjector
 	public static class Encoder
 	{
 		public static Bitmap CurrentBitmap;
-		
-		public const int KEY = int.MinValue;
+
+        public static string KEY;
 
         public static string Encode(byte[] dataForEncode,  string dataExtension, string imageExtension, string fileOutput)
 		{
@@ -26,7 +26,7 @@ namespace ImageInjector
 			dataB.Write(size);
 			dataB.Write(dataForEncode);
 
-            int streamSize = sizeof(int) * 2 + sizeof(Int64) + size; // размер потока в байтах
+            int streamSize = size + sizeof(int) + KEY.Length + dataExtension.Length; // размер потока в байтах
 			
 			if(!IsNormalSize(streamSize)) return "Размер файла слишком большой! Проверьте соотношение:\n1/8 размера картинки >= размер файла!";
 			

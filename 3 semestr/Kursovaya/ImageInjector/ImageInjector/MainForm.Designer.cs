@@ -53,6 +53,10 @@ namespace ImageInjector
             this.selFile2Btn = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.textBoxEncoded = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBoxForDecode = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -62,20 +66,22 @@ namespace ImageInjector
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.textBoxEncoded);
             this.panel1.Controls.Add(this.selFileForEndode);
             this.panel1.Controls.Add(this.selFile1Btn);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(9, 32);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(319, 382);
             this.panel1.TabIndex = 0;
             // 
             // selFileForEndode
             // 
-            this.selFileForEndode.Location = new System.Drawing.Point(38, 290);
-            this.selFileForEndode.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.selFileForEndode.Location = new System.Drawing.Point(38, 260);
+            this.selFileForEndode.Margin = new System.Windows.Forms.Padding(2);
             this.selFileForEndode.Name = "selFileForEndode";
             this.selFileForEndode.Size = new System.Drawing.Size(225, 33);
             this.selFileForEndode.TabIndex = 6;
@@ -86,7 +92,7 @@ namespace ImageInjector
             // selFile1Btn
             // 
             this.selFile1Btn.Location = new System.Drawing.Point(235, 2);
-            this.selFile1Btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.selFile1Btn.Margin = new System.Windows.Forms.Padding(2);
             this.selFile1Btn.Name = "selFile1Btn";
             this.selFile1Btn.Size = new System.Drawing.Size(80, 27);
             this.selFile1Btn.TabIndex = 5;
@@ -108,7 +114,7 @@ namespace ImageInjector
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Location = new System.Drawing.Point(2, 32);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(313, 208);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -136,20 +142,22 @@ namespace ImageInjector
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.textBoxForDecode);
             this.panel2.Controls.Add(this.saveFileDecoded);
             this.panel2.Controls.Add(this.selFile2Btn);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Location = new System.Drawing.Point(332, 32);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(319, 382);
             this.panel2.TabIndex = 2;
             // 
             // saveFileDecoded
             // 
-            this.saveFileDecoded.Location = new System.Drawing.Point(49, 290);
-            this.saveFileDecoded.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.saveFileDecoded.Location = new System.Drawing.Point(49, 260);
+            this.saveFileDecoded.Margin = new System.Windows.Forms.Padding(2);
             this.saveFileDecoded.Name = "saveFileDecoded";
             this.saveFileDecoded.Size = new System.Drawing.Size(225, 33);
             this.saveFileDecoded.TabIndex = 9;
@@ -160,7 +168,7 @@ namespace ImageInjector
             // selFile2Btn
             // 
             this.selFile2Btn.Location = new System.Drawing.Point(235, 2);
-            this.selFile2Btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.selFile2Btn.Margin = new System.Windows.Forms.Padding(2);
             this.selFile2Btn.Name = "selFile2Btn";
             this.selFile2Btn.Size = new System.Drawing.Size(80, 27);
             this.selFile2Btn.TabIndex = 8;
@@ -182,12 +190,49 @@ namespace ImageInjector
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox2.Location = new System.Drawing.Point(2, 32);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(313, 208);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
+            // 
+            // textBoxEncoded
+            // 
+            this.textBoxEncoded.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.textBoxEncoded.Location = new System.Drawing.Point(38, 334);
+            this.textBoxEncoded.Name = "textBoxEncoded";
+            this.textBoxEncoded.ReadOnly = true;
+            this.textBoxEncoded.Size = new System.Drawing.Size(225, 20);
+            this.textBoxEncoded.TabIndex = 7;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label5.Location = new System.Drawing.Point(88, 318);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(127, 13);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Сгенерированный ключ";
+            // 
+            // textBoxForDecode
+            // 
+            this.textBoxForDecode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.textBoxForDecode.Location = new System.Drawing.Point(49, 334);
+            this.textBoxForDecode.Name = "textBoxForDecode";
+            this.textBoxForDecode.Size = new System.Drawing.Size(225, 20);
+            this.textBoxForDecode.TabIndex = 9;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label6.Location = new System.Drawing.Point(93, 318);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(133, 13);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Ключ для дешифрования";
             // 
             // MainForm
             // 
@@ -200,16 +245,23 @@ namespace ImageInjector
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ImageInjector";
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
 		}
+
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBoxEncoded;
+        private System.Windows.Forms.TextBox textBoxForDecode;
+        private System.Windows.Forms.Label label6;
 	}
 }

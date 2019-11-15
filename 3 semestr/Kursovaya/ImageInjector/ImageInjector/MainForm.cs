@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
+using System.Text;
 using System.Windows.Forms;
 
 namespace ImageInjector
@@ -15,6 +16,7 @@ namespace ImageInjector
 		
 		string fileImage1 = "", fileImage2 = "";
 		
+        // Выбор картинки для шифрования
 		void SelFile1BtnClick(object sender, EventArgs e)
 		{
 			OpenFileDialog fb = new OpenFileDialog();
@@ -27,7 +29,8 @@ namespace ImageInjector
         		fileImage1 = fb.FileName;
         	}
 		}
-		
+
+        // Выбор картинки для дешифрования
 		void SelFile2BtnClick(object sender, EventArgs e)
 		{
 			OpenFileDialog fb = new OpenFileDialog();
@@ -41,6 +44,7 @@ namespace ImageInjector
             }
 		}
 		
+        // Процесс шифрования
 		void SelFileForEndodeClick(object sender, EventArgs e)
 		{
 			if(pictureBox1.Image != null)
@@ -49,15 +53,24 @@ namespace ImageInjector
 	            
 	            if(fb.ShowDialog() == DialogResult.OK)
 	            {
-	            	Encoder.CurrentBitmap = new Bitmap(fileImage1);
-
                     Random rand = new Random();
+
+                    string s = GenerateRandomKey(
+                        "0123456789QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm",
+                        rand.Next(16, 32)
+                        );
+
+                    Encoder.KEY = s;
+	            	Encoder.CurrentBitmap = new Bitmap(fileImage1);
 	            	
 	            	string result = Encoder.Encode( File.ReadAllBytes(fb.FileName),
                                         fb.FileName.Substring(fb.FileName.LastIndexOf('.') + 1),
                                         fileImage1.Substring(fileImage1.LastIndexOf('.') + 1),
 	            	              		Path.GetDirectoryName(fileImage1) + Path.DirectorySeparatorChar 
 	            	              			+ "output" + rand.Next(1000).ToString() + '_' + Path.GetFileName(fileImage1) );
+
+                    if (result != "Размер файла слишком большой! Проверьте соотношение:\n1/8 размера картинки >= размер файла!")
+                        textBoxEncoded.Text = s;
 	            	
 	            	MessageBox.Show(result, "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -68,6 +81,7 @@ namespace ImageInjector
             else MessageBox.Show("Изображение для шифрования не загружено!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 		}
 		
+        // Процесс дешифрования
 		void SaveFileDecodedClick(object sender, EventArgs e)
 		{
 			if(pictureBox2.Image != null)
@@ -78,15 +92,33 @@ namespace ImageInjector
                 {
                     Decoder.CurrentBitmap = new Bitmap(fileImage2);
 
+                    Decoder.KEY = textBoxForDecode.Text;
+
                     string result = Decoder.Decode(sd.FileName);
 
                     MessageBox.Show(result, "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                     fileImage2 = "";
                     pictureBox2.Image = null;
+                    textBoxForDecode.Text = "";
                 }
 			}
             else MessageBox.Show("Изображение для расшифровки не загружено!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 		}
+
+        // Ф-ция генерации случайной строки
+        private string GenerateRandomKey(string Alphabet, int Length)
+        {
+            Random rnd = new Random();
+            StringBuilder sb = new StringBuilder(Length - 1);
+
+            for (int i = 0; i < Length; i++)
+            {
+                int Position = rnd.Next(0, Alphabet.Length - 1);
+                sb.Append(Alphabet[Position]);
+            }
+
+            return sb.ToString();
+        }
 	}
 }

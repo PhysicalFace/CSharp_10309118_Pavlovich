@@ -13,7 +13,7 @@ namespace ImageInjector
 	{
 		public static Bitmap CurrentBitmap;
 
-        public const int KEY = Encoder.KEY;
+        public static string KEY;
 		
 		public static string Decode(string fileOutput)
 		{
@@ -40,7 +40,7 @@ namespace ImageInjector
 
 			reader.BaseStream.Seek(0, SeekOrigin.Begin);
 			
-			int key = reader.ReadInt32();
+            string key = reader.ReadString();
 
             if (key == KEY)
 			{
