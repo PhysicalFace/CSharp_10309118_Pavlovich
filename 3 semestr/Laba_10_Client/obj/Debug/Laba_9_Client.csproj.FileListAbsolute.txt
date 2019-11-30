@@ -1,0 +1,11 @@
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Client\bin\Debug\Laba_9_Client.exe.config
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Client\bin\Debug\Laba_9_Client.exe
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Client\bin\Debug\Laba_9_Client.pdb
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Client\obj\Debug\Laba_9_Client.Client.resources
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Client\obj\Debug\Laba_9_Client.Properties.Resources.resources
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Client\obj\Debug\Laba_9_Client.csproj.GenerateResource.Cache
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Client\obj\Debug\Laba_9_Client.exe
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Client\obj\Debug\Laba_9_Client.pdb
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Client\obj\Debug\Laba_9_Client.csprojResolveAssemblyReference.cache
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Client\bin\Debug\Laba_9_Client.exe.CodeAnalysisLog.xml
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Client\bin\Debug\Laba_9_Client.exe.lastcodeanalysissucceeded

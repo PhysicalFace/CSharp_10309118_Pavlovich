@@ -1,0 +1,10 @@
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Server\bin\Debug\Laba_9_Server.exe.config
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Server\bin\Debug\Laba_9_Server.exe
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Server\bin\Debug\Laba_9_Server.pdb
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Server\obj\Debug\Laba_9_Server.Server.resources
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Server\obj\Debug\Laba_9_Server.Properties.Resources.resources
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Server\obj\Debug\Laba_9_Server.csproj.GenerateResource.Cache
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Server\obj\Debug\Laba_9_Server.exe
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Server\obj\Debug\Laba_9_Server.pdb
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Server\bin\Debug\Laba_9_Server.exe.CodeAnalysisLog.xml
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Server\bin\Debug\Laba_9_Server.exe.lastcodeanalysissucceeded
