@@ -8,3 +8,13 @@ C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_2
 C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_2\Laba_2\obj\Debug\Laba_2.exe
 C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_2\Laba_2\obj\Debug\Laba_2.pdb
 C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_2\Laba_2\obj\Debug\Laba_2.Form2.resources
+C:\Users\Physics\Desktop\msf10309118_16\3 semestr\Laba_2\Laba_2\bin\Debug\Laba_2.exe.config
+C:\Users\Physics\Desktop\msf10309118_16\3 semestr\Laba_2\Laba_2\obj\Debug\Laba_2.exe
+C:\Users\Physics\Desktop\msf10309118_16\3 semestr\Laba_2\Laba_2\obj\Debug\Laba_2.pdb
+C:\Users\Physics\Desktop\msf10309118_16\3 semestr\Laba_2\Laba_2\bin\Debug\Laba_2.exe
+C:\Users\Physics\Desktop\msf10309118_16\3 semestr\Laba_2\Laba_2\bin\Debug\Laba_2.pdb
+C:\Users\Physics\Desktop\msf10309118_16\3 semestr\Laba_2\Laba_2\obj\Debug\Laba_2.csprojResolveAssemblyReference.cache
+C:\Users\Physics\Desktop\msf10309118_16\3 semestr\Laba_2\Laba_2\obj\Debug\Laba_2.Form1.resources
+C:\Users\Physics\Desktop\msf10309118_16\3 semestr\Laba_2\Laba_2\obj\Debug\Laba_2.Form2.resources
+C:\Users\Physics\Desktop\msf10309118_16\3 semestr\Laba_2\Laba_2\obj\Debug\Laba_2.Properties.Resources.resources
+C:\Users\Physics\Desktop\msf10309118_16\3 semestr\Laba_2\Laba_2\obj\Debug\Laba_2.csproj.GenerateResource.Cache
