@@ -7,7 +7,7 @@
             <ColumnDefinition Width="241*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <MediaElement Name="media" Source="C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_6\bin\Debug\media.mp4" MediaOpened="MediaOpened" MediaEnded="MediaEnded" LoadedBehavior="Manual" Stretch="Fill" HorizontalAlignment="Left" Height="326" Margin="10,10,-386,-257" VerticalAlignment="Top" Width="618" Grid.ColumnSpan="2"/>
+        <MediaElement Name="media" Source="media.mp4" MediaOpened="MediaOpened" MediaEnded="MediaEnded" LoadedBehavior="Manual" Stretch="Fill" HorizontalAlignment="Left" Height="326" Margin="10,10,-386,-257" VerticalAlignment="Top" Width="618" Grid.ColumnSpan="2"/>
         <Button Content="Play" Click="Button_Click_1" Margin="0,441,151,-394"/>
         <Button Content="Stop" Click="Button_Click_2" Margin="95,441,56,-394"/>
         <Button Content="Pause" Click="Button_Click_3" Margin="190,441,-38,-394" Grid.ColumnSpan="2"/>

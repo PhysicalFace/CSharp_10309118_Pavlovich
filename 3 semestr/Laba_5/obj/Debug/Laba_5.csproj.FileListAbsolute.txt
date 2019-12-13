@@ -18,3 +18,14 @@ C:\Users\Physics\Desktop\msf10309118_16\3 semestr\Laba_5\obj\Debug\Laba_5.Form1.
 C:\Users\Physics\Desktop\msf10309118_16\3 semestr\Laba_5\obj\Debug\Laba_5.Form2.resources
 C:\Users\Physics\Desktop\msf10309118_16\3 semestr\Laba_5\obj\Debug\Laba_5.Properties.Resources.resources
 C:\Users\Physics\Desktop\msf10309118_16\3 semestr\Laba_5\obj\Debug\Laba_5.csproj.GenerateResource.Cache
+E:\АиЯП\Лабы\Laba_5\bin\Debug\Laba_5.exe.config
+E:\АиЯП\Лабы\Laba_5\bin\Debug\Laba_5.exe
+E:\АиЯП\Лабы\Laba_5\bin\Debug\Laba_5.pdb
+E:\АиЯП\Лабы\Laba_5\obj\Debug\Laba_5.csprojAssemblyReference.cache
+E:\АиЯП\Лабы\Laba_5\obj\Debug\Laba_5.Form1.resources
+E:\АиЯП\Лабы\Laba_5\obj\Debug\Laba_5.Form2.resources
+E:\АиЯП\Лабы\Laba_5\obj\Debug\Laba_5.Properties.Resources.resources
+E:\АиЯП\Лабы\Laba_5\obj\Debug\Laba_5.csproj.GenerateResource.cache
+E:\АиЯП\Лабы\Laba_5\obj\Debug\Laba_5.csproj.CoreCompileInputs.cache
+E:\АиЯП\Лабы\Laba_5\obj\Debug\Laba_5.exe
+E:\АиЯП\Лабы\Laba_5\obj\Debug\Laba_5.pdb

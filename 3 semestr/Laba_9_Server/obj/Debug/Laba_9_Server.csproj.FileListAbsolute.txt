@@ -8,3 +8,13 @@ C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9
 C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Server\obj\Debug\Laba_9_Server.pdb
 C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Server\bin\Debug\Laba_9_Server.exe.CodeAnalysisLog.xml
 C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\Laba_9_Server\bin\Debug\Laba_9_Server.exe.lastcodeanalysissucceeded
+E:\АиЯП\Лабы\Laba_9_Server\bin\Debug\Laba_9_Server.exe.config
+E:\АиЯП\Лабы\Laba_9_Server\bin\Debug\Laba_9_Server.exe
+E:\АиЯП\Лабы\Laba_9_Server\bin\Debug\Laba_9_Server.pdb
+E:\АиЯП\Лабы\Laba_9_Server\obj\Debug\Laba_9_Server.csprojAssemblyReference.cache
+E:\АиЯП\Лабы\Laba_9_Server\obj\Debug\Laba_9_Server.Server.resources
+E:\АиЯП\Лабы\Laba_9_Server\obj\Debug\Laba_9_Server.Properties.Resources.resources
+E:\АиЯП\Лабы\Laba_9_Server\obj\Debug\Laba_9_Server.csproj.GenerateResource.cache
+E:\АиЯП\Лабы\Laba_9_Server\obj\Debug\Laba_9_Server.csproj.CoreCompileInputs.cache
+E:\АиЯП\Лабы\Laba_9_Server\obj\Debug\Laba_9_Server.exe
+E:\АиЯП\Лабы\Laba_9_Server\obj\Debug\Laba_9_Server.pdb

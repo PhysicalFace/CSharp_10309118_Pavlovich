@@ -108,6 +108,9 @@ namespace Laba_7
                 if (sum_blue > sum_red && sum_blue > sum_green)
                 {
                     lb_frames.Items.Add(media.Position.TotalSeconds);
+                    sum_red = 0;
+                    sum_green = 0;
+                    sum_blue = 0;
                 }
             }
 

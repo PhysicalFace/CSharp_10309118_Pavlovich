@@ -18,3 +18,14 @@ C:\Users\Physics\Desktop\msf10309118_16\3 semestr\Laba_2\Laba_2\obj\Debug\Laba_2
 C:\Users\Physics\Desktop\msf10309118_16\3 semestr\Laba_2\Laba_2\obj\Debug\Laba_2.Form2.resources
 C:\Users\Physics\Desktop\msf10309118_16\3 semestr\Laba_2\Laba_2\obj\Debug\Laba_2.Properties.Resources.resources
 C:\Users\Physics\Desktop\msf10309118_16\3 semestr\Laba_2\Laba_2\obj\Debug\Laba_2.csproj.GenerateResource.Cache
+E:\АиЯП\Лабы\Laba_2\Laba_2\bin\Debug\Laba_2.exe.config
+E:\АиЯП\Лабы\Laba_2\Laba_2\bin\Debug\Laba_2.exe
+E:\АиЯП\Лабы\Laba_2\Laba_2\bin\Debug\Laba_2.pdb
+E:\АиЯП\Лабы\Laba_2\Laba_2\obj\Debug\Laba_2.csprojAssemblyReference.cache
+E:\АиЯП\Лабы\Laba_2\Laba_2\obj\Debug\Laba_2.Form1.resources
+E:\АиЯП\Лабы\Laba_2\Laba_2\obj\Debug\Laba_2.Form2.resources
+E:\АиЯП\Лабы\Laba_2\Laba_2\obj\Debug\Laba_2.Properties.Resources.resources
+E:\АиЯП\Лабы\Laba_2\Laba_2\obj\Debug\Laba_2.csproj.GenerateResource.cache
+E:\АиЯП\Лабы\Laba_2\Laba_2\obj\Debug\Laba_2.csproj.CoreCompileInputs.cache
+E:\АиЯП\Лабы\Laba_2\Laba_2\obj\Debug\Laba_2.exe
+E:\АиЯП\Лабы\Laba_2\Laba_2\obj\Debug\Laba_2.pdb
