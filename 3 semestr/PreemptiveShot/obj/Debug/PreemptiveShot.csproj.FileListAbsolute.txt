@@ -1,0 +1,9 @@
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\PreemptiveShot\bin\Debug\PreemptiveShot.exe.config
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\PreemptiveShot\bin\Debug\PreemptiveShot.exe
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\PreemptiveShot\bin\Debug\PreemptiveShot.pdb
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\PreemptiveShot\obj\Debug\PreemptiveShot.csprojResolveAssemblyReference.cache
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\PreemptiveShot\obj\Debug\PreemptiveShot.Form1.resources
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\PreemptiveShot\obj\Debug\PreemptiveShot.Properties.Resources.resources
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\PreemptiveShot\obj\Debug\PreemptiveShot.csproj.GenerateResource.Cache
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\PreemptiveShot\obj\Debug\PreemptiveShot.exe
+C:\Users\Physics\Desktop\3 семестр\Лабы\Информатика\PreemptiveShot\obj\Debug\PreemptiveShot.pdb
