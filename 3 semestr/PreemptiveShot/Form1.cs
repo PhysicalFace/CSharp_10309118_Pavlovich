@@ -109,6 +109,8 @@ namespace PreemptiveShot
 
                 buttonFindSolution.Enabled = true;
                 buttonStartAnimation.Enabled = false;
+
+                textBoxLog.AppendText("Сгенерированы объекты." + Environment.NewLine); // лог об успешной генерации объектов
             }
             catch (Exception exc)
             {
@@ -185,6 +187,8 @@ namespace PreemptiveShot
                     textBoxVYr.Text = VYr.ToString();
 
                     buttonStartAnimation.Enabled = true; // включение кнопки анимации
+
+                    textBoxLog.AppendText("Решение найдено!" + Environment.NewLine); // лог о найдённом решении
                 }
             }
             catch (Exception exc)
@@ -197,6 +201,8 @@ namespace PreemptiveShot
         #region Кнопка старта анимации
         private void buttonStartAnimation_Click(object sender, EventArgs e)
         {
+            textBoxLog.AppendText("Запущена анимация..." + Environment.NewLine); // лог о запуске анимации
+
             // Деактивация кнопок во время анимации
             buttonGenerate.Enabled = false;
             buttonFindSolution.Enabled = false;
@@ -269,6 +275,11 @@ namespace PreemptiveShot
 
                     buttonGenerate.Enabled = true;
                     buttonStartAnimation.Enabled = true;
+
+                    textBoxLog.AppendText(
+                        "Анимация завершена!" + Environment.NewLine +
+                        "Время анимации: " + count.ToString() + Environment.NewLine
+                        );  // лог о завершении анимации
                 }
             });
 
